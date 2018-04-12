@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-app.get('/asdf', (req, res) => {
-    res.send({ hi: 'there'});
+app.get('/', (req, res) => {
+    res.send({ bye: 'there'});
 });
 
 //test
