@@ -4,3 +4,5 @@ module.exports = {
     mongoURI: 'mongodb://fedrius:Sunbro18@ds139448.mlab.com:39448/emaily-devtest',
     cookieKey: 'iweuncvdsijfhnusmtrlkweojfdsnfsihgbfciushnkn'
 };
+
+//test
