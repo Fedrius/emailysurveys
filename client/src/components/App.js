@@ -1,9 +1,19 @@
 import React from 'react';
+import { BrowserRouter, Route } from 'react-router-dom';
+
+const Header = () => <h2>headeer</h2>
+const Dashboard = () => <h2>Dash</h2>
+const SurveyNew = () => <h2>Survey</h2>
+const Landing = () => <h2>Landing</h2>
 
 const App = () => {
     return (
         <div>
-            <h1>hi</h1>
+            <BrowserRouter>
+                <div>
+                    <Route path='/' component={Landing} />
+                </div>
+            </BrowserRouter>
         </div>
     );
 };
